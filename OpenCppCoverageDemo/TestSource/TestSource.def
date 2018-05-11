@@ -1,0 +1,7 @@
+LIBRARY		"TestSource"
+
+DESCRIPTION	"SourceCodeLibrary Test"
+
+EXPORTS
+	SayHello	@1
+	add			@2

@@ -1,0 +1,23 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# build result
+/*/.vs
+*.suo
+*.user
+_ReSharper.*/
+*.sdf
+bin/
+obj/
+Debug/
+Release/
+*.opensdf
+*.tlog
+*.log
+/OpenCppCoverageDemo/GoogleTest/googlemock
+/OpenCppCoverageDemo/GoogleTest/googletest
+/OpenCppCoverageDemo/cmake/x64
+/OpenCppCoverageDemo/cmake/x86

@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestSource", "TestSource\TestSource.vcxproj", "{D20E17E6-9F63-41D7-B0FC-AF04BF184E58}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestDemo", "TestDemo\TestDemo.vcxproj", "{BB59B434-124C-4725-9B1A-9B1D0566A76D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GoogleTest", "GoogleTest\GoogleTest.vcxproj", "{C668C0AF-65EE-4458-A755-9DB087F8819B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnitTestConsole", "UnitTestConsole\UnitTestConsole.vcxproj", "{FA1F888D-57A6-42ED-94DA-7315DD1E84F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{943ECAE1-0411-48A9-9D89-623D37C3C66B}"
+	ProjectSection(SolutionItems) = preProject
+		CMakeLists.txt = CMakeLists.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D20E17E6-9F63-41D7-B0FC-AF04BF184E58}.Debug|x64.ActiveCfg = Debug|x64
+		{D20E17E6-9F63-41D7-B0FC-AF04BF184E58}.Debug|x64.Build.0 = Debug|x64
+		{D20E17E6-9F63-41D7-B0FC-AF04BF184E58}.Debug|x86.ActiveCfg = Debug|Win32
+		{D20E17E6-9F63-41D7-B0FC-AF04BF184E58}.Debug|x86.Build.0 = Debug|Win32
+		{D20E17E6-9F63-41D7-B0FC-AF04BF184E58}.Release|x64.ActiveCfg = Release|x64
+		{D20E17E6-9F63-41D7-B0FC-AF04BF184E58}.Release|x64.Build.0 = Release|x64
+		{D20E17E6-9F63-41D7-B0FC-AF04BF184E58}.Release|x86.ActiveCfg = Release|Win32
+		{D20E17E6-9F63-41D7-B0FC-AF04BF184E58}.Release|x86.Build.0 = Release|Win32
+		{BB59B434-124C-4725-9B1A-9B1D0566A76D}.Debug|x64.ActiveCfg = Debug|x64
+		{BB59B434-124C-4725-9B1A-9B1D0566A76D}.Debug|x64.Build.0 = Debug|x64
+		{BB59B434-124C-4725-9B1A-9B1D0566A76D}.Debug|x86.ActiveCfg = Debug|Win32
+		{BB59B434-124C-4725-9B1A-9B1D0566A76D}.Debug|x86.Build.0 = Debug|Win32
+		{BB59B434-124C-4725-9B1A-9B1D0566A76D}.Release|x64.ActiveCfg = Release|x64
+		{BB59B434-124C-4725-9B1A-9B1D0566A76D}.Release|x64.Build.0 = Release|x64
+		{BB59B434-124C-4725-9B1A-9B1D0566A76D}.Release|x86.ActiveCfg = Release|Win32
+		{BB59B434-124C-4725-9B1A-9B1D0566A76D}.Release|x86.Build.0 = Release|Win32
+		{C668C0AF-65EE-4458-A755-9DB087F8819B}.Debug|x64.ActiveCfg = Debug|x64
+		{C668C0AF-65EE-4458-A755-9DB087F8819B}.Debug|x64.Build.0 = Debug|x64
+		{C668C0AF-65EE-4458-A755-9DB087F8819B}.Debug|x86.ActiveCfg = Debug|Win32
+		{C668C0AF-65EE-4458-A755-9DB087F8819B}.Debug|x86.Build.0 = Debug|Win32
+		{C668C0AF-65EE-4458-A755-9DB087F8819B}.Release|x64.ActiveCfg = Release|x64
+		{C668C0AF-65EE-4458-A755-9DB087F8819B}.Release|x64.Build.0 = Release|x64
+		{C668C0AF-65EE-4458-A755-9DB087F8819B}.Release|x86.ActiveCfg = Release|Win32
+		{C668C0AF-65EE-4458-A755-9DB087F8819B}.Release|x86.Build.0 = Release|Win32
+		{FA1F888D-57A6-42ED-94DA-7315DD1E84F6}.Debug|x64.ActiveCfg = Debug|x64
+		{FA1F888D-57A6-42ED-94DA-7315DD1E84F6}.Debug|x64.Build.0 = Debug|x64
+		{FA1F888D-57A6-42ED-94DA-7315DD1E84F6}.Debug|x86.ActiveCfg = Debug|Win32
+		{FA1F888D-57A6-42ED-94DA-7315DD1E84F6}.Debug|x86.Build.0 = Debug|Win32
+		{FA1F888D-57A6-42ED-94DA-7315DD1E84F6}.Release|x64.ActiveCfg = Release|x64
+		{FA1F888D-57A6-42ED-94DA-7315DD1E84F6}.Release|x64.Build.0 = Release|x64
+		{FA1F888D-57A6-42ED-94DA-7315DD1E84F6}.Release|x86.ActiveCfg = Release|Win32
+		{FA1F888D-57A6-42ED-94DA-7315DD1E84F6}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F347202D-AF23-4092-AF70-D8BDF137B92F}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 1
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs-tlocd.it.keysight.com:8080/tfs/tlocd
+		SccProjectUniqueName0 = GoogleTest\\GoogleTest.vcxproj
+		SccProjectName0 = GoogleTest
+		SccAuxPath0 = http://tfs-tlocd.it.keysight.com:8080/tfs/tlocd
+		SccLocalPath0 = GoogleTest
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+EndGlobal
