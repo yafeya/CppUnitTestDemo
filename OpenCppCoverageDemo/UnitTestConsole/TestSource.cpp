@@ -11,8 +11,8 @@ namespace TestDemo
 		ASSERT_EQ(add(1, 2), 3);
 	}
 
-	TEST(FAILURE_TEST, ADD_FAILURE_TEST) {
-                ASSERT_EQ(add(10, 2), 100);
+	TEST(NAGTIVE_CONDITION, ADD_NAGTIVE_TEST) {
+                ASSERT_EQ(add(10, -2), 8);
         }
 
 }
