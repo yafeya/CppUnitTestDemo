@@ -11,5 +11,14 @@ cd x64/debug
 make'''
       }
     }
+
+    stage('UnitTest') {
+      steps {
+        sh '''cd OpenCppCoverageDemo/cmake/x64/debug/UnitTestConsole/bin
+	      ./UnitTestConsole
+'''
+      }
+    }
+
   }
 }
