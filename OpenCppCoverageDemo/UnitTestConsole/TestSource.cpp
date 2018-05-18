@@ -10,4 +10,9 @@ namespace TestDemo
 	TEST(EQ_CONDITION, ADD_EQ_TEST) {
 		ASSERT_EQ(add(1, 2), 3);
 	}
+
+	TEST(FAILURE_TEST, ADD_FAILURE_TEST) {
+                ASSERT_EQ(add(10, 2), 100);
+        }
+
 }
