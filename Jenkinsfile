@@ -4,7 +4,7 @@ node() {
  
         stage("Build x64 Debug") {
         sh 'cd OpenCppCoverageDemo/cmake'
-        sh 'chmod u+x ./build.sh'
+        sh 'chmod 777 build.sh'
         sh './build.sh'
         }
         stage("Perform Unit Tests"){
