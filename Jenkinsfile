@@ -1,22 +1,23 @@
+
 node() {
- 
+
         checkout scm
- 
+
         stage("Build x64 Debug") {
-        sh 'chmod u+x ./build.sh'
-        sh './build.sh'
+		sh 'chmod u+x ./build.sh'
+		sh './build.sh'
         }
         stage("Perform Unit Tests"){
                 dir('OpenCppCoverageDemo/cmake/x64/debug'){
                    sh 'make TestSource_coverage'
                 }
-                 
+                
                 sh 'gcovr -x -r . > OpenCppCoverageDemo/cmake/x64/debug/reports/gcovr_report.xml'
- 
+
         }
         stage("Analyze Code"){
            withSonarQubeEnv('SonarQubeLocal') {
-              sh 'sonar-scanner -Dsonar.projectVersion=$BRANCH_NAME-$BUILD_NUMBER'
+              sh 'sonar-scanner -Dsonar.projectVersion=$BRANCH_NAME-$BUILD_NUMBER' 
            }
         }
         stage("Quality Gate"){
@@ -30,6 +31,6 @@ node() {
         stage("Package"){
              echo "package my applications"
         }
- 
- 
+
+
 }
