@@ -3,9 +3,8 @@ node() {
         checkout scm
  
         stage("Build x64 Debug") {
-       
-        sh 'chmod 777 build.sh'
-        sh './build.sh'
+        sh 'cd OpenCppCoverageDemo/cmake/'
+        ls -a
         }
         stage("Perform Unit Tests"){
                 dir('OpenCppCoverageDemo/cmake/x64/debug'){
