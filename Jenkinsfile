@@ -3,7 +3,7 @@ node() {
         checkout scm
  
         stage("Build x64 Debug") {
-        dir('OpenCppCoverageDemo/cmake')
+        sh 'cd OpenCppCoverageDemo/cmake'
         sh 'chmod u+x ./build.sh'
         sh './build.sh'
         }
