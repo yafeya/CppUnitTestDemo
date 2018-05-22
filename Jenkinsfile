@@ -16,7 +16,7 @@ node() {
         }
         stage("Analyze Code"){
            withSonarQubeEnv('mySonarQube') {
-              sh 'sonar-scanner -Dsonar.projectVersion=$BRANCH_NAME-$BUILD_NUMBER' 
+              sh 'sonar-scanner' 
            }
         }
         stage("Quality Gate"){
