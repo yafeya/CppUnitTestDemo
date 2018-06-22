@@ -7,4 +7,6 @@ extern "C" {
 	void SayHello(string message);
 
 	int add(int a, int b);
+
+	int multipy(int a, int b);
 }

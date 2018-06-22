@@ -5,3 +5,4 @@ DESCRIPTION	"SourceCodeLibrary Test"
 EXPORTS
 	SayHello	@1
 	add			@2
+	multipy		@3
