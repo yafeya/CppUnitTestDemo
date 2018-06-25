@@ -3,9 +3,14 @@
 	<source_dirs>
 		<source_dir>../TestSource</source_dir>
 	</source_dirs>
+	<test_source_dirs>
+		<test_source_dir>../UnitTestConsole</test_source_dir>
+		<test_source_dir>../UnitTestConsolePlus</test_source_dir>
+	</test_source_dirs>
 	<test_apps>
 		<test_app>UnitTestConsole</test_app>
 		<test_app>UnitTestConsolePlus</test_app>
 	</test_apps>
 	<output_dir>../cmake/x64/debug</output_dir>
+	<solution_dir>..</solution_dir>
 </sonar_project>

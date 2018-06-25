@@ -4,7 +4,7 @@
 #
 
 cmake_minimum_required(VERSION 2.8)
-SET(MY_TARGET_NAME TestSource)
+SET(MY_TARGET_NAME TestSourcePlus)
 SET(TestSource_SRC 
 	"TestSource.h"
 	"TestSource.cpp"

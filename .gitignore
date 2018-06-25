@@ -27,3 +27,6 @@ venv/
 *.VC.VC.opendb
 *.VC.db
 TestResults/
+.scannerwork/
+*.info
+__pycache__/

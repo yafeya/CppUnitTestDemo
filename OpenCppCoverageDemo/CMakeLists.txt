@@ -25,6 +25,7 @@ IF(UNIX)
 ENDIF()
 
 ADD_SUBDIRECTORY("TestSource"			"TestSource/bin")
+ADD_SUBDIRECTORY("TestSourcePlus"		"TestSourcePlus/bin")
 ADD_SUBDIRECTORY("GoogleTest"			"GoogleTest/bin")
 ADD_SUBDIRECTORY("UnitTestConsole"		"UnitTestConsole/bin")
 ADD_SUBDIRECTORY("UnitTestConsolePlus"	"UnitTestConsolePlus/bin")
