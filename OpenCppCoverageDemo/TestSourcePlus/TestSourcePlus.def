@@ -1,0 +1,6 @@
+LIBRARY		"TestSourcePlus"
+
+DESCRIPTION	"SourceCodeLibrary Test Plus"
+
+EXPORTS
+	multipy		@1

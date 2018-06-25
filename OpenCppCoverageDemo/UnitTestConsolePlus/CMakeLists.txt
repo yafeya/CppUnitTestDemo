@@ -14,7 +14,7 @@ INCLUDE("UnitTestConsolePlus.cmake")
 SET(LIBRARY_OUTPUT_PATH ${PROJECT_BINARY_DIR}/bin)
 
 INCLUDE_DIRECTORIES("${CMAKE_CURRENT_SOURCE_DIR}/./"
-					"${CMAKE_CURRENT_SOURCE_DIR}/../TestSource"
+					"${CMAKE_CURRENT_SOURCE_DIR}/../TestSourcePlus"
 					"${CMAKE_CURRENT_SOURCE_DIR}/../imports/googletest/googletest/include"
 					"${CMAKE_CURRENT_SOURCE_DIR}/../imports/googletest/googletest"
         )
@@ -25,7 +25,7 @@ ADD_EXECUTABLE(${MY_TARGET_NAME}
 TARGET_LINK_LIBRARIES(${MY_TARGET_NAME} PRIVATE pthread rt dl)
 
 #IF(BINARY_BITS EQUAL 64)   
-    TARGET_LINK_LIBRARIES(${MY_TARGET_NAME} PRIVATE ${PROJECT_BINARY_DIR}/bin/libTestSource.so
+    TARGET_LINK_LIBRARIES(${MY_TARGET_NAME} PRIVATE ${PROJECT_BINARY_DIR}/bin/libTestSourcePlus.so
 										${PROJECT_BINARY_DIR}/bin/libGoogleTest.a
     )
 #ENDIF()

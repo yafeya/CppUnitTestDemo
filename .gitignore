@@ -24,3 +24,6 @@ Release/
 /.scannerwork
 venv/
 .idea/
+*.VC.VC.opendb
+*.VC.db
+TestResults/
