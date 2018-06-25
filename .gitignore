@@ -22,3 +22,5 @@ Release/
 /OpenCppCoverageDemo/cmake/x64
 /OpenCppCoverageDemo/cmake/x86
 /.scannerwork
+venv/
+.idea/

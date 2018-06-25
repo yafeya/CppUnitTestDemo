@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sonar_project name="CppMultiTestDemo">
+	<source_dirs>
+		<source_dir>../TestSource</source_dir>
+	</source_dirs>
+	<test_apps>
+		<test_app>UnitTestConsole</test_app>
+		<test_app>UnitTestConsolePlus</test_app>
+	</test_apps>
+	<output_dir>../cmake/x64/debug</output_dir>
+</sonar_project>
